@@ -1,0 +1,57 @@
+.section-basic-style {
+	  background-color: #a6d0d3;
+    padding: 1em;
+}
+
+.visible {
+    display : block!important;
+}
+
+.container {
+    margin: 5% 20%;
+}
+
+.todoBox {
+    margin-bottom: 10%;
+    background-color: #a6d0d2;
+    padding: 1em;
+}
+
+.todoBox button {
+    height: 32px;
+}
+
+input[name=todo] {
+    width: 200px;
+    height: 30px;
+    padding: 0.5em;
+}
+
+.logBox .todolist {
+    display:none;
+}
+
+.logBox .listBtn {
+    width: 148px;
+    height: 50px;
+    font-size: 1em;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.logBox .todolist li  {
+    margin-bottom: 0.5em;
+}
+
+
+.fold {
+    display :none;
+    float: right;
+    width: 50px;
+    height: 30px;
+    font-size: 0.8em;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+}

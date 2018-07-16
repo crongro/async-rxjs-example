@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TODO를 MVC로 해보자</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.2.1/rxjs.umd.min.js"></script>
+    <script type="module" src="./app.js"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todoBox section-basic-style">
+            할일입력 :
+            <input type="text" name="todo">
+            <button>등록</button>
+        </div>
+        <div class="logBox section-basic-style">
+            <button class="fold">접기</button>
+            <h4 style="display:none;">해야할일들</h4>
+            <button class="listBtn" data-kind="all">데이터모두가져오기</button>
+            <ul class="todolist visible"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
